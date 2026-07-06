@@ -1,258 +1,176 @@
-.navbar_frame {
-  position: relative;
-  width: 100%;
-  height: 145px;
-
+.home_page {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  background-color: rgba(68, 50, 151, 1);
+  flex-direction: column;
 }
 
-.navbar_frame .container {
+.header_frame {
   position: relative;
-  padding: 20px 0 14px;
-  width: 1320px;
+  margin-top: 47px;
+  width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 
-.navbar_frame .container .navbar_top {
-  width: 100%;
-  height: 50px;
-
-  display: flex;
+.header_frame .container {
   flex-direction: row;
-  justify-content: space-between;
 }
 
-.navbar_top .nav_search_frame {
-  width: 651px;
-  height: 50px;
-  border-radius: 6px;
+.container .header_left {
+  padding: 15px;
+  position: relative;
+  width: 875px;
+  height: 508px;
 
-  display: flex;
-  flex-direction: row;
-
-  background-color: white;
+  background-color: #0053f6;
+  background-image: url("../Images/icons/header_bg.svg");
 }
 
-.nav_search_frame .search_box {
-  padding: 10px 17px;
+.header_left .header_content {
+  margin-top: 90px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.header_content div {
+  width: 104px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
   align-items: center;
-}
 
-.search_box .category_list {
-  width: 166px;
-  height: 30px;
-
-  border-right: 1px solid rgba(214, 214, 214, 1);
-}
-
-.category_list select {
-  width: 140px;
-  height: 30px;
-
-  border: none;
-  outline: none;
+  background: #f5c34b;
+  border-radius: 6px;
 
   color: rgba(4, 30, 66, 1);
 
   font-family: "Jost";
-  font-style: Regular;
-  font-size: 15px;
-  font-weight: 400;
+  font-style: Medium;
+  font-size: 13px;
+  font-weight: 500;
   line-height: 22px;
-  letter-spacing: 0%;
 }
 
-.search_box input {
-  margin-left: 12px;
-  width: 387px;
-  height: 22px;
-
-  border: none;
-  outline: none;
-
-  color: rgba(98, 105, 116, 1);
+.header_content span {
+  margin-top: 10px;
+  width: 428px;
 
   font-family: "Jost";
-  font-style: Regular;
-  font-size: 15px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 87px;
+  color: #ffffff;
 }
 
-.nav_search_frame .search_icon_box {
-  width: 50px;
-  height: 50px;
+.header_content p {
+  margin-top: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.header_content a {
+  margin-top: 20px;
+  width: 140px;
+  height: 52px;
 
   display: flex;
-  justify-content: center;
   align-items: center;
-
-  border-radius: 0px 6px 6px 0px;
-  background: rgba(245, 195, 75, 1);
-}
-
-.navbar_top .nav_top_menu {
-  width: 416px;
-  height: 50px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.nav_top_menu .top_menu_box {
-  display: flex;
-  flex-direction: row;
-}
-
-.top_menu_box .box_icon_box {
-  position: relative;
-  width: 55px;
-  height: 50px;
-
-  display: flex;
   justify-content: center;
-  align-items: center;
 
   box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 6px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  background-color: white;
 }
 
-.box_icon_box img {
-  width: 25px;
-  height: 25px;
+.header_content img {
+  position: absolute;
+  right: 10px;
 }
 
-.top_menu_box .box_info_box {
-  margin-left: 16px;
+.container .header_right {
+  margin-left: 20px;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-}
-
-.box_info_box span {
-  color: rgba(255, 255, 255, 1);
-
-  font-family: "Jost";
-  font-style: Regular;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
-}
-
-.box_info_box strong {
-  color: rgba(255, 255, 255, 1);
-
-  font-family: "Jost";
-  font-style: Regular;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
-}
-
-.box_icon_box .basket_count {
-  position: absolute;
-  width: 15.92px;
-  height: 15px;
-  top: 0%;
-  right: 0%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: rgba(245, 195, 75, 1);
-
-  color: rgba(11, 30, 64, 1);
-
-  font-family: "Jost";
-  font-style: Bold;
-  font-size: 8px;
-  font-weight: 700;
-  line-height: 10px;
-  letter-spacing: 0%;
-  text-align: left;
-}
-
-.navbar_frame .container .bottom_navbar {
-  margin-top: 20px;
-  width: 100%;
-  height: 30px;
-  border-top: 1px solid #5747a2;
-}
-
-.bottom_navbar .bottom_navbar_menu_box {
-  margin-top: 10px;
-  height: 30px;
-
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
-
-.bottom_navbar .browse_box {
-  width: 185px;
+.header_right .header_box {
+  width: 422px;
+  height: 240px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  border-right: 1px solid #5747a2;
+
+  border-radius: 5px;
+
+  background: rgba(242, 242, 242, 1);
 }
 
-.browse_box img {
-  width: 20px;
-  height: 18px;
+.header_right .box_left {
+  margin-left: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.browse_box span {
-  margin-left: 10px;
-  color: rgba(255, 255, 255, 1);
+
+.box_left span {
+  color: rgba(0, 83, 246, 1);
 
   font-family: "Jost";
   font-style: Medium;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: left;
+  line-height: 22px;
 }
 
-.bottom_navbar_menu_box .navbar_route_menu {
-  margin-left: 12px;
-  width: 670px;
-}
-
-.navbar_route_menu a {
-  margin-right: 10px;
-  color: rgba(255, 255, 255, 1);
+.box_left p {
+  margin: 10px 0;
+  color: rgba(4, 30, 66, 1);
 
   font-family: "Jost";
   font-style: Medium;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 500;
+  line-height: 38px;
 }
 
-.navbar_route_menu a.title {
-  color: #f5c34b;
-}
-
-.sorting_menu span {
-  margin-left: 10px;
-  color: rgba(255, 255, 255, 1);
+.box_left a {
+  color: rgba(4, 30, 66, 1);
 
   font-family: "Jost";
   font-style: Medium;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
+  line-height: 22px;
+}
+
+.box_left .hover_border {
+  margin-top: 3px;
+  width: 32px;
+  height: 2px;
+  background: #041e42;
+}
+
+.header_box .box_right {
+  width: 50%;
+}
+
+.box_right img {
+  width: 100%;
+  height: 100%;
 }

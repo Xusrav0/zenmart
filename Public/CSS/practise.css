@@ -1,26 +1,3 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  margin: 0;
-}
-
-.container {
-  position: relative;
-  width: 1320px;
-  height: auto;
-  display: flex;
-}
-
-/* Navbar */
-
 .navbar_frame {
   position: relative;
   width: 100%;
@@ -34,8 +11,10 @@ p {
 }
 
 .navbar_frame .container {
-  padding: 20px 0 14px;
-  flex-direction: column;
+  position: relative;
+  padding: 20px 0px 14px;
+  width: 1320px;
+  height: auto;
 }
 
 .navbar_frame .container .navbar_top {
@@ -47,7 +26,7 @@ p {
   justify-content: space-between;
 }
 
-.navbar_frame .navbar_top .nav_search_frame {
+.navbar_top .nav_search_frame {
   width: 651px;
   height: 50px;
   border-radius: 6px;
@@ -58,21 +37,21 @@ p {
   background-color: white;
 }
 
-.navbar_frame .nav_search_frame .search_box {
+.nav_search_frame .search_box {
   padding: 10px 17px;
   display: flex;
-  flex-direction: row;
+  flex: row;
   align-items: center;
 }
 
-.navbar_frame .search_box .category_list {
+.search_box .category_list {
   width: 166px;
   height: 30px;
 
   border-right: 1px solid rgba(214, 214, 214, 1);
 }
 
-.navbar_frame .category_list select {
+.category_list select {
   width: 140px;
   height: 30px;
 
@@ -89,7 +68,7 @@ p {
   letter-spacing: 0%;
 }
 
-.navbar_frame .search_box input {
+.search_box input {
   margin-left: 12px;
   width: 387px;
   height: 22px;
@@ -108,7 +87,7 @@ p {
   text-align: left;
 }
 
-.navbar_frame .nav_search_frame .search_icon_box {
+.nav_search_frame .search_icon_box {
   width: 50px;
   height: 50px;
 
@@ -120,7 +99,7 @@ p {
   background: rgba(245, 195, 75, 1);
 }
 
-.navbar_frame .navbar_top .nav_top_menu {
+.navbar_top .nav_top_menu {
   width: 416px;
   height: 50px;
 
@@ -128,15 +107,14 @@ p {
   flex-direction: row;
   justify-content: space-between;
 }
-
-.navbar_frame .nav_top_menu .top_menu_box {
+.nav_top_menu .top_menu_box {
   display: flex;
   flex-direction: row;
 }
 
-.navbar_frame .top_menu_box .box_icon_box {
+.top_menu_box .box_icon_box {
   position: relative;
-  width: 55px;
+  width: 54px;
   height: 50px;
 
   display: flex;
@@ -148,19 +126,19 @@ p {
   border-radius: 6px;
 }
 
-.navbar_frame .box_icon_box img {
-  width: 25px;
-  height: 25px;
+.box_icon_box img {
+  width: 28px;
+  height: 28px;
 }
 
-.navbar_frame .top_menu_box .box_info_box {
+.top_menu_box .box_info_box {
   margin-left: 16px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.navbar_frame .box_info_box span {
+.box_info_box span {
   color: rgba(255, 255, 255, 1);
 
   font-family: "Jost";
@@ -172,7 +150,7 @@ p {
   text-align: left;
 }
 
-.navbar_frame .box_info_box strong {
+.box_info_box strong {
   color: rgba(255, 255, 255, 1);
 
   font-family: "Jost";
@@ -184,7 +162,7 @@ p {
   text-align: left;
 }
 
-.navbar_frame .box_icon_box .basket_count {
+.box_icon_box .basket_count {
   position: absolute;
   width: 15.92px;
   height: 15px;
@@ -208,35 +186,36 @@ p {
   text-align: left;
 }
 
-.navbar_frame .container .bottom_navbar {
+.navbar_frame .container .navbar_bottom {
   margin-top: 20px;
   width: 100%;
   height: 30px;
   border-top: 1px solid #5747a2;
 }
 
-.navbar_frame .bottom_navbar .bottom_navbar_menu_box {
+.navbar_bottom .navbar_bottom_menu_box {
   margin-top: 10px;
-  height: 30px;
-
+  height: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.navbar_frame .bottom_navbar .browse_box {
+.navbar_bottom .browse_box {
   width: 185px;
   display: flex;
   flex-direction: row;
   align-items: center;
+
   border-right: 1px solid #5747a2;
 }
 
-.navbar_frame .browse_box img {
+.browse_box img {
   width: 20px;
   height: 18px;
 }
-.navbar_frame .browse_box span {
+
+.browse_box span {
   margin-left: 10px;
   color: rgba(255, 255, 255, 1);
 
@@ -249,12 +228,13 @@ p {
   text-align: left;
 }
 
-.navbar_frame .bottom_navbar_menu_box .navbar_route_menu {
-  margin-left: 12px;
+.navbar_bottom_menu_box .navbar_route_menu {
   width: 670px;
+  display: flex;
+  flex-direction: row;
 }
 
-.navbar_frame .navbar_route_menu a {
+.navbar_route_menu a {
   margin-right: 10px;
   color: rgba(255, 255, 255, 1);
 
@@ -264,11 +244,11 @@ p {
   font-weight: 500;
 }
 
-.navbar_frame .navbar_route_menu a.title {
+.navbar_route_menu a.title {
   color: #f5c34b;
 }
 
-.navbar_frame .sorting_menu span {
+.sorting_menu span {
   margin-left: 10px;
   color: rgba(255, 255, 255, 1);
 
