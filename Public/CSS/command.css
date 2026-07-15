@@ -665,12 +665,16 @@ p {
   flex-direction: row;
 }
 
-.social_box .media_box i {
+.social_box .media_box a {
   margin-top: 20px;
   margin-right: 20px;
   font-size: 20px;
 }
 
+.media_box img {
+  width: 25px;
+  height: 25px;
+}
 .follow_social .mobile_app_box {
   margin-top: 30px;
   display: flex;
