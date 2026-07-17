@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -81,8 +85,8 @@ p {
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
-  font-style: Regular;
+  font-family: var(--font);
+  font-style: normal;
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -99,7 +103,7 @@ p {
 
   color: rgba(98, 105, 116, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -163,7 +167,7 @@ p {
 .navbar_frame .box_info_box span {
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -175,7 +179,7 @@ p {
 .navbar_frame .box_info_box strong {
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 500;
@@ -199,7 +203,7 @@ p {
 
   color: rgba(11, 30, 64, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Bold;
   font-size: 8px;
   font-weight: 700;
@@ -240,7 +244,7 @@ p {
   margin-left: 10px;
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -258,7 +262,7 @@ p {
   margin-right: 10px;
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -272,7 +276,7 @@ p {
   margin-left: 10px;
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -329,7 +333,7 @@ p {
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 13px;
   font-weight: 500;
@@ -340,7 +344,7 @@ p {
   margin-top: 10px;
   width: 428px;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -351,7 +355,7 @@ p {
 
 .header_frame .header_content p {
   margin-top: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -373,7 +377,7 @@ p {
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -415,7 +419,7 @@ p {
 .header_frame .box_left span {
   color: rgba(0, 83, 246, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -426,7 +430,7 @@ p {
   margin: 10px 0;
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 26px;
   font-weight: 500;
@@ -436,7 +440,7 @@ p {
 .header_frame .box_left a {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -499,7 +503,7 @@ p {
 .service_frame .service_content span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -509,7 +513,7 @@ p {
 .service_frame .service_content p {
   color: rgba(98, 105, 116, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -560,7 +564,7 @@ p {
 }
 .footer_frame .footer_title {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 18px;
   font-weight: 500;
@@ -580,7 +584,7 @@ p {
 
 .footer_info div strong {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -590,7 +594,7 @@ p {
 .footer_info div span {
   margin-top: 10px;
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -615,7 +619,7 @@ p {
 
 .support_box .footer_support a {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -641,7 +645,7 @@ p {
 
 .services_box .footer_services a {
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -696,7 +700,7 @@ p {
 .app_box span {
   margin-left: 10px;
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
@@ -741,7 +745,7 @@ p {
   margin-right: 60px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -776,7 +780,7 @@ p {
 .footer_select_box span {
   margin-left: 15px;
   color: rgba(98, 105, 116, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -787,7 +791,7 @@ p {
   margin-left: 20px;
   width: 70px;
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -818,7 +822,7 @@ p {
 .footer_select_box1 span {
   margin-left: 15px;
   color: rgba(98, 105, 116, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -829,7 +833,7 @@ p {
   margin-left: 20px;
   width: 70px;
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
