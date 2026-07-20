@@ -60,6 +60,7 @@
   height: auto;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .pagination_main img {
@@ -67,6 +68,7 @@
 }
 
 .container .pagination_dot .dot {
+  position: relative;
   width: 20px;
   height: 20px;
 
@@ -78,6 +80,11 @@
 .container .pagination_dot .dot.active {
   border: 2px solid #112137;
   border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .container .pagination_dot .dot div {
